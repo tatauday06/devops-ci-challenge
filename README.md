@@ -1,21 +1,21 @@
-# FSL DevOps Continuous Integration(CI) Challenge
+# rdiCidr
 
-## Part 1. (1.5 hr max)
+Ok, let's get this out of the way. Why did I choose that name? I chose the name because palindromes are fun. The app's name stands for RDerik's Interactive  CIDR (RDICIDR). I had to add the Interactive to make the name work. I hope you like it.
 
-Set up a new repository and CI pipeline using any free tier from the provider of your choosing (e.g. GitLab, GitHub, BitBucket, etcetera).
+RDICIDR is a react-app, but if you want to focus on the subnetting code, check the file:
 
-You can download the codebase from this repository from the `codebase` directory. The codebase contains a simple JavaScript application built using [create-react-app](https://create-react-app.dev/).
+```
+src/lib/ipv4.js
+```
 
-The CI build should be triggered for any pull-request and should run the following steps:
+You should find there how each property was calculated.
 
-- Install dependencies `npm install`
-- Linter (ESLint) `npm run lint`
-- Formatter (Prettier) `npm  run prettier`
-- Test (Jest) `CI=true npm run test`
-- Build `npm run build`
+This application is not a final product. I just built it because I wanted to refresh my subnetting knowledge. Enjoy!
 
-The build should be successful. Please provide a couple of pull-requests to show pass or fail in the CI pipeline.
+# Live version
 
-## Part 2. (30 max)
+You can find a live version at the following url:
 
-Write a concise description of how would you go about deploying this project to a public-cloud provider. Go in as much detail as you want, but try not to spend more than 30 minutes on it. Give a general overview of what resources will be required. Also, describe the process you'll use to build the infrastructure, deploy, handle different environments, etcetera. You can choose any public cloud and write a few sentences on why you use that provider.
+[https://rdicidr.rderik.com](https://rdicidr.rderik.com)
+
+If you find this tool useful, you might enjoy reading my blog: [https://rderik.com](https://rderik.com)
